@@ -19,6 +19,8 @@ with your python path
 with your  git.py path
 1. replace `"E:\\projects\\run.py"`
 with your  run.py path
+1. make sure your `git remote` name is `main` and
+your `git branch` name is `main`.
 1. Use <kbd>F3</kbd> to run file
 1. Use <kbd>Ctrl-G</kbd> to git commit and push
 1. Reloading vscode not necessary,
