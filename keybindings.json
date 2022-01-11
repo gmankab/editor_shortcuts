@@ -1,4 +1,4 @@
-// 
+// replace "D:\\dev\\python-3.10.1\\python.exe" with your python path
 [
     {
         "key": "ctrl+g",
@@ -10,7 +10,8 @@
                 {
                     "command": "workbench.action.terminal.sendSequence",
                     "args": {
-                        "text": "D:\\dev\\python-3.10.1\\python.exe E:\\projects\\git.py\u000D"},
+                        "text": "D:\\dev\\python-3.10.1\\python.exe E:\\projects\\git.py\u000D"
+                    },
                 },
                 "workbench.action.focusActiveEditorGroup",
             ]
