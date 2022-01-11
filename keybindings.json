@@ -1,0 +1,35 @@
+// 
+[
+    {
+        "key": "ctrl+g",
+        "command": "extension.multiCommand.execute",
+        "args": {
+            "sequence": [
+                "workbench.action.terminal.focusTabs",
+                "workbench.action.terminal.scrollToBottom",
+                {
+                    "command": "workbench.action.terminal.sendSequence",
+                    "args": {
+                        "text": "D:\\dev\\python-3.10.1\\python.exe E:\\projects\\git.py\u000D"},
+                },
+                "workbench.action.focusActiveEditorGroup",
+            ]
+        },
+    },
+    {
+        "key": "f3",
+        "command": "extension.multiCommand.execute",
+        "args": {
+            "sequence": [
+                "workbench.action.terminal.focusTabs",
+                "workbench.action.terminal.scrollToBottom",
+                {
+                    "command": "workbench.action.terminal.sendSequence",
+                    "args": {
+                        "text": "D:\\dev\\python-3.10.1\\python.exe E:\\projects\\run.py ${file}\u000D"},
+                },
+                "workbench.action.focusActiveEditorGroup",
+            ]
+        },
+    },
+]
