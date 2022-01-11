@@ -20,8 +20,8 @@ def silent_run():
 
 queue = (
     'git remote rename origin main',
-    'git branch --unset-upstream'
-    'git branch -m main'
+    'git branch --unset-upstream',
+    'git branch -m main',
 
     'cls',
     'git add .',
