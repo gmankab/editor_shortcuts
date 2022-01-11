@@ -1,4 +1,4 @@
-There is small python scripts for running files
+There are small python scripts for running files
 and uploading it to github by hotkeys.
 
 ## Supported languages:
