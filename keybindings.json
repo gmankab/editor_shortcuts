@@ -1,4 +1,7 @@
 // replace "D:\\dev\\python-3.10.1\\python.exe" with your python path
+// replace "E:\\projects\\git.py" with your  git.py path
+// replace "E:\\projects\\run.py" with your  run.py path
+
 [
     {
         "key": "ctrl+g",
