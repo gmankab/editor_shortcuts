@@ -20,7 +20,7 @@ queue = (
     'cls',
     'git add .',
     'git commit . -m aboba',
-    'git push main',
+    'git push origin',
 )
 
 
