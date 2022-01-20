@@ -20,7 +20,7 @@ queue = (
     'cls',
     'git add .',
     'git commit . -m aboba',
-    'git push origin',
+    'git push --set-upstream origin main'
 )
 
 
