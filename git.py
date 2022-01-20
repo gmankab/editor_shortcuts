@@ -13,7 +13,7 @@ def silent_run():
 
 
 queue = (
-    'git remote rename origin main',
+    'git remote rename main origin',
     'git branch --unset-upstream',
     'git branch -m main',
 
