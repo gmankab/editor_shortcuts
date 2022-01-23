@@ -9,10 +9,10 @@ and uploading it to github by hotkeys.
 ## How to use?
 
 1. Download [multi-command extension](https://marketplace.visualstudio.com/items?itemName=ryuta46.multi-command)
-1. Download [vscode/run.py](https://github.com/gmankab/vscode_hotkeys/blob/main/vscode/run.py)
-and [git.py](https://github.com/gmankab/vscode_hotkeys/blob/main/git.py)
-1. Open your keybindings.json and paste to it
-[my keybindings](https://github.com/gmankab/vscode_hotkeys/blob/main/keybindings.json)
+1. Download [run.py](vscode/run.py)
+and [git.py](git.py)
+1. Open your keybindings.json and paste to it my
+[keybindings.json](keybindings.json)
 1. replace `"D:\\dev\\python-3.10.1\\python.exe"`
 with your python path
 1. replace `"E:\\projects\\git.py"`
