@@ -1,6 +1,6 @@
 // replace "D:\\dev\\python-3.10.1\\python.exe" with your python path
-// replace "E:\\projects\\git.py" with your  git.py path
-// replace "E:\\projects\\run.py" with your  run.py path
+// replace "E:\\projects\\init\\git.py" with your  git.py path
+// replace "E:\\projects\\init\\vscode\\run.py" with your  run.py path
 
 [
     {
@@ -13,7 +13,7 @@
                 {
                     "command": "workbench.action.terminal.sendSequence",
                     "args": {
-                        "text": "D:\\dev\\python-3.10.1\\python.exe E:\\projects\\git.py\u000D"
+                        "text": "D:\\dev\\python-3.10.1\\python.exe E:\\projects\\init\\git.py\u000D"
                     },
                 },
                 "workbench.action.focusActiveEditorGroup",
@@ -30,7 +30,7 @@
                 {
                     "command": "workbench.action.terminal.sendSequence",
                     "args": {
-                        "text": "D:\\dev\\python-3.10.1\\python.exe E:\\projects\\run.py ${file}\u000D"},
+                        "text": "D:\\dev\\python-3.10.1\\python.exe E:\\projects\\init\\vscode\\run.py ${file}\u000D"},
                 },
                 "workbench.action.focusActiveEditorGroup",
             ]
