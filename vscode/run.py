@@ -12,6 +12,12 @@ match ext:
         os.system(
             f'{sys.executable} {file_path}'
         )
+
+    case 'bat' | 'cmd':
+        os.system(
+            file_path
+        )
+
     case 'pas':
         pascal_path = r'D:\dev\fpc\bin\i386-win32\ppcrossx64.exe'
 
