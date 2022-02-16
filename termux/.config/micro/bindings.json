@@ -1,19 +1,64 @@
 {
-    "Alt-/":          "lua:comment.comment",
-    "Alt-.":          "lua:comment.comment",
-    "CtrlUnderscore": "lua:comment.comment",
-    "AltUp":          "SelectUp",
-    "AltDown":        "SelectDown",
-    "AltLeft":        "SelectWordLeft",
-    "AltRight":       "SelectWordRight",
-    "AltEnd":         "SelectToEndOfLine",
-    "AltHome":        "SelectToStartOfLine",
-    "Alt-Backspace":  "DeleteWordLeft",
-    "Ctrl-u":         "DeleteWordRight",
-    "AltCtrlUp":      "SpawnMultiCursorUp",
-    "AltCtrlDown":    "SpawnMultiCursorDown",
-    "Alt-s":          "Save,Quit",
-    "Ctrl-s":         "Save,command:lint",
-    "Ctrl-r":         "Save,command:reload,command:run 'termux-reload-settings'",
-    "Ctrl-g":         "command: run 'python ~/full_path_to_file.py'"
+"Alt-/":
+    "lua:comment.comment",
+
+"Alt-.":
+    "lua:comment.comment",
+
+"CtrlUnderscore":
+    "lua:comment.comment",
+
+"AltUp":
+    "SelectUp",
+
+"AltDown":
+    "SelectDown",
+
+"AltLeft":
+    "SelectWordLeft",
+
+"AltRight":
+    "SelectWordRight",
+
+"AltEnd":
+    "SelectToEndOfLine",
+
+"AltHome":
+    "SelectToStartOfLine",
+
+"Alt-Backspace":
+    "DeleteWordLeft",
+
+"Ctrl-u":
+    "DeleteWordRight",
+
+"AltCtrlUp":
+    "SpawnMultiCursorUp",
+    
+"AltCtrlDown":
+    "SpawnMultiCursorDown",
+    
+"Ctrl-s":
+    "Save,command:lint",
+    
+"Alt-s":
+    "Save,command:splitterm_run python",
+    
+"Ctrl-r":
+    "Save,command:reload,command:run 'termux-reload-settings'",
+    
+"Ctrl-g":
+    "Save,command:run gitpush",
+    
+"Ctrl-q":
+    "Save,Quit",
+
+"<Alt-q><Alt-q>":
+    "ForceQuit",
+
+"<Alt-j><Alt-s>":
+    "command:open ~/.config/micro/bindings.json",
+
+"Alt-t":
+    "OutdentSelection|OutdentLine",
 }
