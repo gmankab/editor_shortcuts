@@ -11,6 +11,7 @@
         "https://raw.githubusercontent.com/micro-editor/plugin-channel/master/channel.json"
     ],
     "pluginrepos": [],
+    "rmtrailingws": true,
     "savecursor": true,
     "saveundo": true,
     "scrollbar": true,
