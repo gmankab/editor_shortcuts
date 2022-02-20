@@ -1,0 +1,27 @@
+strictness: veryhigh
+doc-warnings: false
+test-warnings: true
+
+inherits:
+    - full_pep8
+
+pylint:
+  run: true
+
+pyroma:
+  run: true
+
+frosted:
+  run: true
+
+vulture:
+  run: true
+
+dodgy:
+  run: true
+
+pep257:
+  run: true
+
+bandit:
+  run: true

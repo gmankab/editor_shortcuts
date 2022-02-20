@@ -2,8 +2,8 @@ import os
 import sys
 
 file_path = sys.argv[1]
-
 file_path_non_ext, ext = file_path.rsplit('.', 1)
+file_path = f'"{file_path}"'
 
 os.system('cls')
 
@@ -19,7 +19,7 @@ match ext:
         )
 
     case 'pas':
-        pascal_path = r'D:\dev\fpc\bin\i386-win32\ppcrossx64.exe'
+        pascal_path = r'D:\dev_legacy\fpc\bin\i386-win32\ppcrossx64.exe'
 
         output = os.popen(
             f'{pascal_path} {file_path}'
@@ -29,5 +29,5 @@ match ext:
 
         if not output:
             os.system(
-                f'{file_path_non_ext}.exe'
+                f'"{file_path_non_ext}.exe"'
             )
