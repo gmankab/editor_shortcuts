@@ -1,64 +1,25 @@
 {
-"Alt-/":
-    "lua:comment.comment",
-
-"Alt-.":
-    "lua:comment.comment",
-
-"CtrlUnderscore":
-    "lua:comment.comment",
-
-"AltUp":
-    "SelectUp",
-
-"AltDown":
-    "SelectDown",
-
-"AltLeft":
-    "SelectWordLeft",
-
-"AltRight":
-    "SelectWordRight",
-
-"AltEnd":
-    "SelectToEndOfLine",
-
-"AltHome":
-    "SelectToStartOfLine",
-
-"Alt-Backspace":
-    "DeleteWordLeft",
-
-"Ctrl-u":
-    "DeleteWordRight",
-
-"AltCtrlUp":
-    "SpawnMultiCursorUp",
-    
-"AltCtrlDown":
-    "SpawnMultiCursorDown",
-    
-"Ctrl-s":
-    "Save,command:lint",
-    
-"Alt-s":
-    "Save,command:splitterm_run python",
-    
-"Ctrl-r":
-    "Save,command:reload,command:run 'termux-reload-settings'",
-    
-"Ctrl-g":
-    "Save,command:run gitpush",
-    
-"Ctrl-q":
-    "Save,Quit",
-
-"<Alt-q><Alt-q>":
-    "ForceQuit",
-
-"<Alt-j><Alt-s>":
-    "command:open ~/.config/micro/bindings.json",
-
-"Alt-t":
-    "OutdentSelection|OutdentLine",
+    "\u003cAlt-j\u003e\u003cAlt-s\u003e": "command:open ~/.config/micro/bindings.json",
+    "\u003cAlt-q\u003e\u003cAlt-q\u003e": "ForceQuit",
+    "Alt-.": "lua:comment.comment",
+    "Alt-/": "lua:comment.comment",
+    "Alt-Backspace": "DeleteWordLeft",
+    "Alt-Ctrl-Down": "SpawnMultiCursorDown",
+    "Alt-Ctrl-Up": "SpawnMultiCursorUp",
+    "Alt-Down": "SelectDown",
+    "Alt-End": "SelectToEndOfLine",
+    "Alt-Home": "SelectToStartOfLine",
+    "Alt-Left": "SelectWordLeft",
+    "Alt-Right": "SelectWordRight",
+    "Alt-Up": "SelectUp",
+    "Alt-l": "Save,command:lint",
+    "Alt-s": "Save,command:splitterm_run python",
+    "Alt-t": "OutdentSelection|OutdentLine",
+    "Alt-z": "Redo",
+    "Ctrl-g": "Save,command:run gitpush",
+    "Ctrl-q": "Save,Quit",
+    "Ctrl-r": "Save,command:reload,command:run 'termux-reload-settings'",
+    "Ctrl-s": "Save,command:lint",
+    "Ctrl-u": "DeleteWordRight",
+    "CtrlUnderscore": "lua:comment.comment"
 }
