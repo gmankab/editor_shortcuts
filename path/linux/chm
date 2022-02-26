@@ -1,3 +1,3 @@
 #!/bin/bash
 
-python /mnt/d/projects/init/python/chm.py
+python ~/projects/init/python/chm.py
