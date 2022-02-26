@@ -1,0 +1,1 @@
+/mnt/d/projects/init/python/run.py
