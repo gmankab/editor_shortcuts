@@ -1,28 +1,22 @@
 import os
-import subprocess
-
-
-def silent_run():
-    out, err = subprocess.Popen(
-        i,
-        shell=True,
-        stdin=subprocess.PIPE,
-        stderr=subprocess.STDOUT,
-        stdout=subprocess.PIPE,
-        close_fds=True).communicate()
+import sys
+# print()
+# import bd
 
 
 queue = (
-    r'git remote rename main origin',
-    r'git branch --unset-upstream',
-    r'git branch -m main',
+    'git remote rename main origin',
+    'git branch --unset-upstream',
+    'git branch -m main',
 
     'cls',
-    r'git add .',
-    r'git commit . -m aboba',
-    r'git push --set-upstream origin main'
+    'git add .',
+    'git commit . -m aboba',
+    'git push --set-upstream origin main'
 )
 
 
 for i in queue:
     os.system(i)
+
+# os.system('git remote rename main origin')
