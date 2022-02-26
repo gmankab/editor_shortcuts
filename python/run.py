@@ -16,7 +16,7 @@ os.system('clear')
 match ext:
     case 'py':
         os.system(
-            f'cmd.exe /c py {path_and_args}'
+            f'cmd.exe /c python {path_and_args}'
         )
 
     case 'bat' | 'cmd':
