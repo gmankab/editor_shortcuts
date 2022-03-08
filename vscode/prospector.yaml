@@ -23,11 +23,18 @@ mccabe:
 
 pyflakes:
   run: true
+  disable:
+    - F401
 
 pylint:
   run: true
   disable:
-    unused-import
+    - unused-import
+    - wrong-import-position
+    - import-error
+    - possibly-unused-variable
+    - eval-used
+    - too-few-public-methods
 
 pyroma:
   run: true
@@ -37,6 +44,8 @@ frosted:
 
 vulture:
   run: true
+  disable:
+    - unused-variable
 
 dodgy:
   run: true
@@ -46,6 +55,7 @@ pep8:
   disable:
     - E221
     - E251
+    - E402
 
 pep257:
   run: true
@@ -62,6 +72,9 @@ pep257:
     - D300
     - D400
     - D415
+    - E402
+    - D200
+    - D403
 
 bandit:
   run: false
