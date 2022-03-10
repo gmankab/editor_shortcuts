@@ -35,6 +35,14 @@ pylint:
     - possibly-unused-variable
     - eval-used
     - too-few-public-methods
+    - invalid-name
+    - unused-argument
+    - too-many-locals
+    - dangerous-default-value
+    - unused-variable
+    - too-many-arguments
+    - wrong-import-order
+    - broad-except
 
 pyroma:
   run: true
@@ -46,6 +54,8 @@ vulture:
   run: true
   disable:
     - unused-variable
+    - unused-function
+    - unused-attribute
 
 dodgy:
   run: true

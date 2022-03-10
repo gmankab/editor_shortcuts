@@ -5,35 +5,40 @@ args = sys.argv.copy()
 for i, arg in enumerate(args):
     args[i] = arg.replace('\\', '/')
 
-path = sys.argv[1]
-path_non_ext, ext = path.rsplit('.', 1)
-path = f'"{path}"'
-path_and_args = ' '.join(args[1:])
-args = args[2:]
+file = sys.argv[1]
+file_non_ext, ext = file.rsplit('.', 1)
+file = f'"{file}"'
+args_non_file = args[2:]
+args = ' '.join(args[1:])
 
 os.system('clear')
 
 match ext:
     case 'py':
+        if '--alt' in sys.argv:
+            python = 'wpy'
+        else:
+            python = sys.executable
+
         os.system(
-            f'cmd.exe /c python {path_and_args}'
+            f'{python} {args}'
         )
 
     case 'bat' | 'cmd':
         os.system(
-            path_and_args
+            args
         )
 
     case 'pas':
-        pascal_path = r'D:\dev_legacy\fpc\bin\i386-win32\ppcrossx64.exe'
+        pascal_file = r'D:\dev_legacy\fpc\bin\i386-win32\ppcrossx64.exe'
 
         output = os.popen(
-            f'{pascal_path} {path}'
+            f'{pascal_file} {file}'
         ).readlines()
 
         print(''.join(output))
 
         if not output:
             os.system(
-                f'"{path_non_ext}.exe"'
+                f'"{file_non_ext}.exe"'
             )
