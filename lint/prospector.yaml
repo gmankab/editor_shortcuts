@@ -7,11 +7,11 @@ inherits:
 
 mypy:
   run: true
-  options:
-    ignore-missing-imports: true
-    follow-imports: 
-  disable:
-    - error
+  # options:
+  #   ignore-missing-imports: true
+    # no-site-packages: true
+    # config-file: "D:/projects/init/lint/mypy.ini"
+    
 
 pydocstyle:
   run: true
@@ -43,6 +43,8 @@ pylint:
     - too-many-arguments
     - wrong-import-order
     - broad-except
+    - line-too-long
+    - consider-using-join
 
 pyroma:
   run: true
@@ -66,6 +68,8 @@ pep8:
     - E221
     - E251
     - E402
+    - E501
+    - E122
 
 pep257:
   run: true
