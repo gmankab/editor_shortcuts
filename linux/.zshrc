@@ -169,7 +169,7 @@ bindkey '^H' backward-kill-word
 export PATH="/mnt/d/projects/init/path/linux:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/OpenSSH/:/mnt/d/apps/games/minecraft/Java64/bin:/mnt/c/Users/Gmanka/AppData/Local/Microsoft/WindowsApps:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl"
 
 alias gp="python ~/projects/init/python/gp.py"
-alias cmd="cmd.exe /c"
+alias cmd="cmd.exe"
 alias cm="cmd.exe /c"
 alias run="python ~/projects/init/python/run.py"
 alias py="python"
@@ -177,5 +177,10 @@ alias wpy="cmd.exe /c py"
 alias wpip="cmd.exe /c pip"
 alias pip="python -m pip"
 alias cl="clip.exe"
+alias code="cmd.exe /c code"
+alias mi="micro"
+alias pacman="apt"
+alias install="-S"
+alias pc="apt"
 
 stty intr ^B

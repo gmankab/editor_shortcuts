@@ -5,8 +5,7 @@ test-warnings: true
 inherits:
     - full_pep8
 
-mypy:
-  run: true
+# mypy:
   # options:
   #   ignore-missing-imports: true
     # no-site-packages: true
@@ -25,10 +24,20 @@ pyflakes:
   run: true
   disable:
     - F401
+    - F403
+    - F405
+    - F841
 
 pylint:
   run: true
   disable:
+    - using-constant-test
+    - reimported
+    - import-outside-toplevel
+    - function-redefined
+    - global-statement
+    - bare-except
+    - no-else-return
     - unused-import
     - wrong-import-position
     - import-error
@@ -45,6 +54,14 @@ pylint:
     - broad-except
     - line-too-long
     - consider-using-join
+    - wildcard-import
+    - consider-using-sys-exit
+    - inconsistent-return-statements
+    - no-else-raise
+    - redefined-builtin
+    - not-an-iterable
+    - too-many-statements
+    - too-many-branches
 
 pyroma:
   run: true
@@ -65,11 +82,14 @@ dodgy:
 pep8:
   run: true
   disable:
+    - E122
     - E221
+    - E222
     - E251
     - E402
     - E501
-    - E122
+    - E722
+    - N806
 
 pep257:
   run: true
@@ -79,7 +99,7 @@ pep257:
     - D102  # Missing docstring in public method
     - D103  # Missing docstring in public 
     - D105
-    - D107   # Missing docstring in __init__prospector - pep257
+    - D107   # Missing docstring in __init__
     - D203
     - D205  # First line should end with a period, question mark, or exclamation point
     - D212

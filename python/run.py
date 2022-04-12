@@ -11,7 +11,7 @@ file = f'"{file}"'
 args_non_file = args[2:]
 args = ' '.join(args[1:])
 
-os.system('clear')
+os.system('cls')
 
 match ext:
     case 'py':
