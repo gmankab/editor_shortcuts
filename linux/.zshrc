@@ -178,7 +178,8 @@ alias pip="python -m pip"
 alias cl="clip.exe"
 alias code="cmd.exe /c code"
 alias mi="micro"
-alias install="-S"
+alias in="install"
+alias i="install"
 alias pc="apt"
 alias ls='ls -a'
 
