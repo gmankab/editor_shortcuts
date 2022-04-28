@@ -2,7 +2,7 @@
     "audio": "pipewire",
     "bootloader": "systemd-bootctl",
     "desktop-environment": "gnone", "dry-run": false,
-    "gfx_driver": "Nuidia (open-source)",
+    "gfx_driver": "Nvidia (open-source)",
     "harddrives": [
         "/dev/sdb"
     ],
