@@ -1,0 +1,58 @@
+{
+    "audio": "pipewire",
+    "bootloader": "systemd-bootctl",
+    "harddrives": [
+        "/dev/loop0"
+    ],
+    "hostname": "",
+    "kernels": [
+        "linux"
+    ],
+    "keyboard-layout": "us",
+    "mirror-region": {
+        "Worldwide": {
+            "https://mirror.rackspace.com/archlinux/$repo/os/$arch": true
+        }
+    },
+    "nic": {
+        "type": "NM"
+    },
+    "ntp": true,
+    "packages": [],
+    "profile": null,
+    "script": "guided",
+    "swap": true,
+    "sys-encoding": "utf-8",
+    "sys-language": "en_US",
+    "timezone": "UTC"
+}
+
+"audio": "pipewire",
+
+"bootloader": "systend-bootctl",
+
+"desktop-environment": "gnone", "dry-run": false,
+
+"gfx_driver": "Nuidia (open-source)",
+
+"harddrives": [ "/dev/sdb"
+
+"hostname": "gnk",
+
+"kernels": [
+
+"keyboard-layout": "us",
+
+"nirror-region": 0,
+
+"linux" "nic": "Copy ISO network configuration to installation", "profile": { "path": "/usr/lib/python3.10/site-packages/archinstall/profiles/desktop.py"
+
+"ntp": true, "packages": [],
+
+3, "script": "guided",
+
+"suap": true,
+
+"sys-encoding": "utf-8", "version": "2.3.2"
+
+"sys-language":"en_US",
