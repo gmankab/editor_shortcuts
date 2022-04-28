@@ -12,9 +12,7 @@
     ],
     "keyboard-layout": "us",
     "mirror-region": {},
-    "nic": {
-        "type": "Copy ISO network configuration to installation",
-    },
+    "nic": "Copy ISO network configuration to installation",
     "ntp": true,
     "packages": [],
     "profile":  {
