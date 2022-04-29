@@ -4,7 +4,7 @@
     "desktop-environment": "gnone", "dry-run": false,
     "gfx_driver": "Nvidia (open-source)",
     "harddrives": [
-        "/dev/sdb"
+        "/dev/sda"
     ],
     "hostname": "gmn",
     "kernels": [
