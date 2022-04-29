@@ -1,7 +1,7 @@
 {
     "audio": "pipewire",
     "bootloader": "systemd-bootctl",
-    "desktop-environment": "gnone",
+    "desktop-environment": "gnome",
     "disk_layouts": null,
     "dry_run": false,
     "gfx_driver": "Nvidia (open-source)",
