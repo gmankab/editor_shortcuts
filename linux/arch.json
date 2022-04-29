@@ -2,8 +2,8 @@
     "audio": "pipewire",
     "bootloader": "systemd-bootctl",
     "desktop-environment": "gnone",
-    "disk-layouts": null,
-    "dry-run": false,
+    "disk_layouts": null,
+    "dry_run": false,
     "gfx_driver": "Nvidia (open-source)",
     "harddrives": [
         "/dev/sda"
